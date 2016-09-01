@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+flask
+bokeh==0.12.1
+requests
+gunicorn
+datetime

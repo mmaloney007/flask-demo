@@ -1,0 +1,29 @@
+<!doctype html>
+<title>THE HIDDEN FLASK</title>
+
+<link
+    href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.1.min.css"
+    rel="stylesheet" type="text/css"
+>
+<div class=page>
+  <h1>Stock plotter 2001</h1>
+
+  <div class=metanav>
+
+
+    <h2>Please enter a stock ticker (e.g., AAPL).</h2>
+
+    <h4>
+      <form id='answerform' method='post' action='plotpage' >
+	<p>
+		Ticker : <input type='text' name='tickerText' />
+	  </p>
+
+        <p>
+          <input type='submit' value='Plot' />
+        </p>
+      </form>
+    </h4>
+	<h2> {{ msg }} </h2>
+  </div>
+</div>
